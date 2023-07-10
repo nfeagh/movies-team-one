@@ -8,19 +8,19 @@ Read the main [tutorial](https://blog.miguelgrinberg.com/post/how-to-create-a-re
 
 ## Start Flask API
 ```
-cd api
-source venv/bin/activate
-pip install -r requirements.txt
+source api/venv/bin/activate
+pip install -r api/requirements.txt
 yarn start-api
 ```
 
 ## Start React App
+Start a new terminal and run:
 ```
 yarn start
 ```
 
 ## Before running Jupyter Notebook
+Start a new terminal and run:
 ```
-cd api
-pip install -r requirements.txt
+pip install -r api/requirements.txt
 ```
